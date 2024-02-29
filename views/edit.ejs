@@ -1,0 +1,26 @@
+<%-include("partials/header.ejs")  %>
+
+
+
+
+
+
+
+
+<form action="/submit" method="post">
+<div class="container">
+  <div class="mb-3">
+    <label for="titleInput" class="form-label">Title</label>
+    <input name="userTitle" type="text" class="form-control" id="userTitle" placeholder="Type your title here">
+  </div>
+<div class="mb-3">
+    <label for="nameInput" class="form-label">Your Name</label>
+    <input name="userName" type="text" class="form-control" id="userName" placeholder="Type your name here">
+  </div>
+  <div class="mb-3">
+    <label for="yourBlog" class="form-label">Blog Content</label>
+    <textarea name="userCont" class="form-control" id="userBlog" rows="3"></textarea>
+    <input class="sub mt-3" type="submit" value="Submit">
+  </div>
+</div></form>
+<%-include("partials/footer.ejs")  %>

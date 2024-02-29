@@ -1,0 +1,22 @@
+<%-include("partials/header.ejs")  %>
+<h1>Blog</h1>
+
+<hr>
+
+
+<%if(locals.n){%>
+    <% for(let i=0;i<n.length;i++){ %>
+        <div class="container my-5">
+            <div class="p-5  bg-body-tertiary rounded-3">
+                <h2><%= title[i]  %></h2>
+                <p class="text-body-secondary">Created by <%=  n[i]%> - <%=date[i]%></p>
+                <p><%= cont[i]%></p>
+            </div>
+          </div>
+<% }}%> 
+
+
+
+<%-include("partials/footer.ejs")  %>
+
+
