@@ -1,2 +1,3 @@
 # blogpage
-Fiurst Blog page (very basic)
+First Blog page (very basic)
+Multipage responsive blog.
